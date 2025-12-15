@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+out-tsc/
+bazel-out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.angular/cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OneDrive files (exclude project folders)
+OneDrive/**/*
+!OneDrive/Máy tính/project/quanli/
+!OneDrive/Máy tính/project/task-backend/
+
+# Exclude everything in OneDrive except our project
+OneDrive/*
+!OneDrive/Máy tính/
+OneDrive/Máy tính/*
+!OneDrive/Máy tính/project/
+
+# User files
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+NhiPSH/
+Searches/
+Videos/
+*.lnk
+*.url
+*.dat
+*.ini
+NTUSER.*
+*.blf
+*.regtrans-ms
+*.exe
+*.zip
+*.pdf
+*.docx
+
+# Project folders to include
+!quanli/
+!task-backend/
+
